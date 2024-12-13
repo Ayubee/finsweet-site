@@ -1,0 +1,8 @@
+:root {
+  --main-ff: "poppins", Arial, Helvetica, sans-serif;
+  --body-fs: 1.6rem;
+  --body-lh: 1.5;
+
+  /* Colors */
+  --color-dark: #232536;
+}

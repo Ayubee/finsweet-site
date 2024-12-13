@@ -1,0 +1,58 @@
+@import url(./normal.css);
+@import url(./fonts.css);
+@import url(./root.css);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px dotted var(--color-dark);
+  outline-offset: 5px;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-size: var(--body-fs);
+  line-height: var(--body-lh);
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
