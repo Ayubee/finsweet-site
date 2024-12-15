@@ -11,7 +11,7 @@
 }
 
 *:focus {
-  outline: 3px dotted var(--color-dark);
+  outline: 3px dotted var(--blue-main);
   outline-offset: 5px;
 }
 
@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-family: var(--main-ff);
   font-size: var(--body-fs);
   line-height: var(--body-lh);
 }
@@ -55,4 +55,137 @@ main {
   margin-right: auto;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.header {
+  background-color: var(--dark-navy);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: auto;
+}
+.site-logo__img {
+}
+.sitenav {
+  margin-right: 3.2rem;
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav_item {
+}
+.sitenav_link {
+  font-weight: 500;
+  opacity: 0.6;
+  color: var(--white-full);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-top: 3px solid transparent;
+}
+
+.sitenav_link:focus {
+  outline-offset: 0px;
+}
+
+#active,
+.sitenav_link:hover {
+  border-top-color: var(--peach-light);
+  opacity: 1;
+}
+
+.header__btn {
+  color: var(--peach-light);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hedaer__btn__img {
+  object-fit: contain;
+}
+
+.footer {
+  padding-top: 9.6rem;
+}
+.footer__container {
+}
+
+.footer__Subscribe {
+  background-color: var(--blue-main);
+  padding: 9.6rem;
+  color: var(--white-full);
+  background-image: url("../img/Shapes-left.svg"),
+    url("../img/Shapes-right.svg");
+  background-repeat: no-repeat;
+  background-position: left top, bottom 1rem right;
+}
+.Subscribe__subtitle {
+  font-weight: 500;
+}
+.Subscribe__box {
+  margin-top: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+.Subscribe__title {
+  width: 100%;
+  max-width: 488px;
+  font-weight: 600;
+  font-size: 3.6rem;
+}
+.Subscribe__input {
+  width: 454px;
+  height: 64px;
+  padding-left: 2.9rem;
+  margin-left: auto;
+  border: none;
+}
+
+.footer__box {
+  padding-top: 9.6rem;
+  display: flex;
+}
+
+.footer__content {
+}
+.content__box {
+}
+.content__title {
+}
+.content__subtitle {
+}
+.content__link-number {
+}
+.content__link-email {
+}
+.content__address {
+}
+.footer__navigation {
+  margin-left: auto;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__column {
+}
+.footer__link-title {
+}
+.footer__link {
+}
+.footer__contact-link {
+}
+.footer__contact-box {
+}
+.footer__icon {
+}
+.footer__btn {
+  color: var(--dark-navy);
 }
