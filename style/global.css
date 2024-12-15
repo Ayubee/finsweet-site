@@ -49,6 +49,14 @@ main {
   flex-grow: 1;
 }
 
+.divider {
+  margin-top: 1.4rem;
+  width: 268px;
+  height: 1px;
+  opacity: 0.4;
+  background-color: var(--dark-navy);
+}
+
 .container {
   max-width: 1340px;
   margin-left: auto;
@@ -69,8 +77,7 @@ main {
 .site-logo {
   margin-right: auto;
 }
-.site-logo__img {
-}
+
 .sitenav {
   margin-right: 3.2rem;
 }
@@ -78,8 +85,7 @@ main {
   display: flex;
   gap: 3.2rem;
 }
-.sitenav_item {
-}
+
 .sitenav_link {
   font-weight: 500;
   opacity: 0.6;
@@ -113,8 +119,6 @@ main {
 
 .footer {
   padding-top: 9.6rem;
-}
-.footer__container {
 }
 
 .footer__Subscribe {
@@ -150,22 +154,43 @@ main {
 
 .footer__box {
   padding-top: 9.6rem;
+  padding-bottom: 6.4rem;
   display: flex;
 }
 
-.footer__content {
-}
-.content__box {
-}
 .content__title {
+  width: 100%;
+  max-width: 452px;
+
+  font-weight: 600;
+  font-size: 4.8rem;
 }
 .content__subtitle {
+  margin-top: 4rem;
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 .content__link-number {
+  display: block;
+  margin-top: 2.8rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--dark-navy);
 }
 .content__link-email {
+  margin-top: 0.4rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  color: var(--dark-navy);
 }
+
 .content__address {
+  margin-top: 1.6rem;
+  width: 100%;
+  max-width: 206px;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 .footer__navigation {
   display: flex;
@@ -178,20 +203,12 @@ main {
   display: flex;
   gap: 6.1rem;
 }
-.footer__column {
-}
-.footer__link-title {
-}
-.footer__link {
-}
+
 .footer__contact-link {
   margin-left: 350px;
   margin-top: 9.2rem;
 }
-.footer__contact-box {
-}
-.footer__icon {
-}
+
 .footer__btn {
   /* margin-left: auto; */
   color: var(--dark-navy);
@@ -209,4 +226,32 @@ main {
   font-weight: 600;
   font-size: 1.6rem;
   color: var(--dark-navy);
+}
+
+.footer_social {
+  background-color: var(--color-peach);
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+
+.footer__social-conatiner {
+  align-items: center;
+  display: flex;
+}
+
+.footer__social__logo {
+}
+.social__logo__img {
+}
+.footer__social__subtitle {
+  margin-left: 4.2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.social__list {
+  margin-left: auto;
+  display: flex;
+  gap: 2.7rem;
+}
+.social__item {
 }
