@@ -168,11 +168,15 @@ main {
 .content__address {
 }
 .footer__navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
   margin-left: auto;
 }
 .footer__links {
   display: flex;
-  justify-content: space-between;
+  gap: 6.1rem;
 }
 .footer__column {
 }
@@ -181,11 +185,28 @@ main {
 .footer__link {
 }
 .footer__contact-link {
+  margin-left: 350px;
+  margin-top: 9.2rem;
 }
 .footer__contact-box {
 }
 .footer__icon {
 }
 .footer__btn {
+  /* margin-left: auto; */
+  color: var(--dark-navy);
+}
+
+.footer_href_link {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--dark-navy);
+  margin-top: 1.2rem;
+}
+
+.footer__href {
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
   color: var(--dark-navy);
 }
